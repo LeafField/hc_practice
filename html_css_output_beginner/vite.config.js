@@ -20,7 +20,6 @@ export default {
       },
       input: {
         index: resolve(__dirname, "./src/index.html"),
-        test: resolve(__dirname, "./src/test.html"),
       },
     },
   },

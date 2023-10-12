@@ -9,8 +9,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "postcss-load-config": "^4.0.1",
     "sass": "^1.69.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "browserslist": [
+    "last 3 versions",
+    "> 1%",
+    "not dead"
+  ]
 }
