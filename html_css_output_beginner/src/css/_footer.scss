@@ -1,0 +1,12 @@
+@use "./utils" as *;
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 4px;
+}
+
+small {
+  font-size: rem(12);
+  text-align: center;
+  display: block;
+}

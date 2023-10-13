@@ -1,7 +1,15 @@
-.test {
-  color: red;
-  height: 300px;
-  background-color: gray;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+@forward "./header";
+@forward "./hero";
+@forward "./intro";
+@forward "./prifile";
+@forward "./footer";
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
