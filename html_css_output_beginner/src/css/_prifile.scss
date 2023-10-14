@@ -1,0 +1,66 @@
+@use "./utils" as *;
+
+// セクションの大枠
+.profile {
+  padding-top: rem(104);
+}
+
+// セクションタイトル
+.profile__title {
+  text-decoration: underline;
+  text-decoration-thickness: rem(1);
+  text-underline-offset: rem(13);
+  text-align: center;
+  font-size: rem(28);
+  padding-right: rem(3);
+}
+
+// カードコンテナ
+
+.profile {
+  // コンテナ
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(rem(258), 1fr));
+    max-width: rem(960);
+    gap: 1rem;
+    margin-inline: auto;
+    padding-inline: 4%;
+    margin-top: 64px;
+  }
+
+  // カードの大枠
+  &__card {
+    width: 100%;
+  }
+}
+
+// カードの中身
+
+.card {
+  // カードタイトル
+  &__title {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  // カードテキスト
+  &__text {
+    text-align: center;
+    font-size: rem(13);
+    margin-top: rem(14);
+  }
+
+  // カードイメージ
+  &__image {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+
+    & img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

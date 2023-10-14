@@ -1,0 +1,15 @@
+@forward "./header";
+@forward "./hero";
+@forward "./intro";
+@forward "./prifile";
+@forward "./footer";
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
